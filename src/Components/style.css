@@ -95,6 +95,8 @@ nav ul li a:focus::before {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  height: 500px;
+  overflow-y: auto;
 }
 .movie {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
